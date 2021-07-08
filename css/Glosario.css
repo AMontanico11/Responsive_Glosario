@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.TITTLE_IMPORT{
+    width: 100%;
+    height: 100%;
+    background-color: #ff0004;
+    background-image: linear-gradient(180deg, #ff0004 0%, #ff6265 50%, #ff0004 100%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+section{
+    width: 80%;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+.table{
+    border: solid black;
+}
+.Cuadro{
+    text-align: center;
+}
+/* ******PRIMERA SECCION********* */
+.TITTLE_IMPORT{
+    color: rgb(253, 253, 253);
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+}
+/* ***SEGUNDA SECCION*** */
+.TITULO_TABLA{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 180, 220);
+    font-family: 'Dancing Script', cursive;
+}
+
+.subtitulo{
+    font-size: 17px;
+    color:blue;
+}
+
+.tittle_1{
+    color:rgb(255, 255, 255);
+    background-color: rgb(13, 192, 7);
+    list-style: none;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+.tittle_2{
+    color:white;
+    background-color: tomato;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+.tittle_3{
+    color:white;
+    background-color: rgb(27, 145, 255);
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+.tittle_4{
+    color: white;
+    background-color: orangered;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f00000;
+    background-image: linear-gradient(62deg, #f00000 0%, #f78e8e 100%);
+
+}
+.LOGO{
+    color: blanchedalmond;
+}
+.nav{
+    
+    width: 10%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.borde{
+    border: 2px solid #09F3EF;
+    border-radius: 10px;
+}
+.escuadra{
+    border: 2px solid #FC6700;
+    border-radius: 10px;
+}
+.Beto{
+    border: 2px solid #EFE516;
+    border-radius: 10px;
+}
+.mb{
+    border: 2px solid #2FEC00;
+    border-radius: 10px;
+}
+
+
+.Cuerpo1{
+    background-color: #444343;
+    color: white;
+    width: 100%;
+}
+@media screen and (max-width: 700px){
+    section{
+        width: 100%;
+        margin: 30px auto;
+        box-sizing: border-box;
+    }
+    .tittle_1{
+        font-size: 200%;
+    }
+    
+    .tittle_2{
+        font-size: 200%;
+    }
+    .tittle_3{
+        font-size: 180%;
+    }
+    .tittle_4{   
+        font-size: 190%;
+    }
+
+    .Cuerpo1{
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        font-size: 50%;
+    }
+    .LOGO{
+        font-size: 180%;
+    }
+    .nav{
+        font-size: 160%;
+        width: 35%; 
+    }
+    .TITTLE_IMPORT{
+        font-size: 250%;
+    }
+    .TITULO_TABLA{
+        font-size: 150%;
+    }
+}
